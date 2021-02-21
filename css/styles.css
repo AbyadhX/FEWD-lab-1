@@ -1,11 +1,17 @@
 /* Get rid of the default margin that the browser does */
 body {
     margin:0;
+    font-family:"Roboto", "Arial", sans-serif;
+    background-color: #580000;
+    color: #c1f5c1;
+    font-size: 20px;
 }
 
 h1{
-    color: #4c6aa5;
+    font-size: 50px;
+    color: #1bb01b;
 }
+
 
 /* Target the <ul> element in the navigation div */
 #navigation ul{
@@ -16,14 +22,14 @@ h1{
     /* overflow is clipped and elements cant overflow */
     overflow: hidden;
     /* colour of the background */
-    background-color: #5f84ce;
+    background-color: #8b0000;
     /* position is always in place */
     position: fixed;
     top: 0;
     /* takes 100% of the browser's page */
     width: 100%;
     /* adds a border */
-    border-bottom: 5px solid #4c6aa5;
+    border-bottom: 5px solid #ffb2b2;
 }
 
 /* Target all of the <li> elements in the navigation div */
@@ -47,11 +53,11 @@ h1{
 }
 
 #navigation a:hover {
-  background-color: #A5B4D2;
+  background-color: #ff8b8b;
 }
 
 #navigation a.active {
-  background-color: #4c6aa5;
+  background-color: #9f0000;
   color: white;
 }
 
@@ -71,11 +77,22 @@ h1{
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
-    display: block;
+    
+}
+
+#image img{
+    border-radius: 50%;
 }
 
 /* Main text div */
 #main{
     /* Change the size to be automatic which is reflected on the block before it (image) */
     width: auto;
+}
+
+.icon {
+    padding: 30px;
+    font-size: 50px;
+    text-decoration: none;
+    color: #008000;
 }
